@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data (do not version raw datasets / user data)
+data/raw/
+data/processed/
+
+# Trained models (heavy artifacts)
+models/*.joblib
+models/transformer/
+
+# Backups and logs
+*.bak
+*.log
+
+# Secrets
+.env
+kaggle.json
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Outils locaux
+.claude/

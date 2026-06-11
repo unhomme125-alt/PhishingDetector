@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+joblib
+streamlit
+matplotlib
+seaborn
+datasets
+transformers
+torch
+evaluate
+beautifulsoup4
+tldextract

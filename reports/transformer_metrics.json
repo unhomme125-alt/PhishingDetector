@@ -1,0 +1,13 @@
+{
+  "eval_loss": 0.071,
+  "eval_accuracy": 0.9859,
+  "eval_precision_phishing": 0.9875,
+  "eval_recall_phishing": 0.9844,
+  "eval_f1_phishing": 0.9859,
+  "eval_runtime": 96.8417,
+  "eval_samples_per_second": 33.044,
+  "eval_steps_per_second": 2.065,
+  "epoch": 2.0,
+  "model": "distilbert-base-uncased",
+  "small_sample": true
+}

@@ -1,0 +1,22 @@
+{
+  "model": "meta_logreg_isotonic",
+  "n_meta_train": 12907,
+  "n_meta_test": 5532,
+  "auc": 0.9992,
+  "precision_phishing_at_0.50": 0.9915,
+  "recall_phishing_at_0.50": 0.9943,
+  "coefficients": {
+    "stage1_score": 5.47,
+    "url_score": 0.0284,
+    "urgency_score": 0.0768,
+    "credential_request": -0.2258,
+    "fin_bank_alert": 0.1317,
+    "fin_payment_request": -0.2177,
+    "fin_invoice": 0.0726,
+    "generic_greeting": 0.8779,
+    "threatening_language": 0.1539,
+    "package_delivery_context": -0.0589,
+    "text_length": 0.1026,
+    "html_ratio": -0.1258
+  }
+}

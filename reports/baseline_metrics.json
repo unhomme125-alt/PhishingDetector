@@ -1,0 +1,34 @@
+{
+  "model": "baseline_tfidf_logreg",
+  "positive_class": "phishing (1)",
+  "stage1_threshold": 0.35,
+  "calibrated": true,
+  "n_train": 73752,
+  "n_test": 18439,
+  "accuracy": 0.9905,
+  "precision_phishing": 0.9865,
+  "recall_phishing": 0.9949,
+  "f1_phishing": 0.9907,
+  "calibration": {
+    "brier_before": 0.0075,
+    "brier_after": 0.0064,
+    "recall_at_threshold_before": 0.9966,
+    "recall_at_threshold_after": 0.9949
+  },
+  "confusion_matrix": {
+    "labels": [
+      "legitimate",
+      "phishing"
+    ],
+    "matrix": [
+      [
+        8883,
+        128
+      ],
+      [
+        48,
+        9380
+      ]
+    ]
+  }
+}

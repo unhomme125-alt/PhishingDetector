@@ -1,0 +1,23 @@
+{
+  "model": "url_classifier_randomforest",
+  "n_train": 32965,
+  "n_test": 8336,
+  "auc": 0.8854,
+  "precision_phishing": 0.8033,
+  "recall_phishing": 0.8369,
+  "feature_importances": {
+    "url_count": 0.3249,
+    "max_tld_risk_score": 0.08,
+    "has_ip_url": 0.0229,
+    "max_subdomain_depth": 0.1222,
+    "has_redirect_keyword": 0.2213,
+    "has_auth_keyword_in_path": 0.0305,
+    "domain_typosquatting_score": 0.0075,
+    "url_text_mismatch": 0.0,
+    "legitimate_domain_ratio": 0.1909
+  },
+  "probes": {
+    "legit_amazon": 0.008,
+    "phish_amaz0n_tk": 1.0
+  }
+}
